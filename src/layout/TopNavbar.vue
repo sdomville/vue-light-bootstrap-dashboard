@@ -1,8 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Dashboard</a>
-      <button type="button"
+      <a class="navbar-brand" href="#">Alerting Test Framework</a>
+      <!-- <button type="button"
               class="navbar-toggler navbar-toggler-right"
               :class="{toggled: $sidebar.showSidebar}"
               aria-controls="navigation-index"
@@ -39,6 +39,7 @@
             </a>
           </li>
         </ul>
+
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">
@@ -60,6 +61,7 @@
             </a>
           </li>
         </ul>
+         -->
       </div>
     </div>
   </nav>

@@ -2,14 +2,14 @@
   <div class="content">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xl-3 col-md-6">
+        <div class="col-xl-3 col-md-6 center">
           <stats-card>
-            <div slot="header" class="icon-warning">
-              <i class="nc-icon nc-chart text-warning"></i>
+            <div slot="header" class="icon-dnager">
+              <i class="nc-icon nc-alien-33 text-danger"></i>
             </div>
             <div slot="content">
-              <p class="card-category">Capacity</p>
-              <h4 class="card-title">105GB</h4>
+              <p class="card-category">Alerts</p>
+              <h4 class="card-title">105</h4>
             </div>
             <div slot="footer">
               <i class="fa fa-refresh"></i>Updated now
@@ -17,14 +17,14 @@
           </stats-card>
         </div>
 
-        <div class="col-xl-3 col-md-6">
+        <div class="col-xl-3 col-md-6 center">
           <stats-card>
             <div slot="header" class="icon-success">
-              <i class="nc-icon nc-light-3 text-success"></i>
+              <i class="nc-icon nc-notes text-success"></i>
             </div>
             <div slot="content">
-              <p class="card-category">Revenue</p>
-              <h4 class="card-title">$1,345</h4>
+              <p class="card-category">Events</p>
+              <h4 class="card-title">1345</h4>
             </div>
             <div slot="footer">
               <i class="fa fa-calendar-o"></i>Last day
@@ -32,13 +32,13 @@
           </stats-card>
         </div>
 
-        <div class="col-xl-3 col-md-6">
+        <div class="col-xl-3 col-md-6 center">
           <stats-card>
-            <div slot="header" class="icon-danger">
-              <i class="nc-icon nc-vector text-danger"></i>
+            <div slot="header" class="icon-info">
+              <i class="nc-icon nc-favourite-28 text-primary"></i>
             </div>
             <div slot="content">
-              <p class="card-category">Errors</p>
+              <p class="card-category">Avg ETA (ms)</p>
               <h4 class="card-title">23</h4>
             </div>
             <div slot="footer">
@@ -46,14 +46,48 @@
             </div>
           </stats-card>
         </div>
+      </div>
 
-        <div class="col-xl-3 col-md-6">
+
+      <!-- second row of cards -->
+      <div class="row">
+        <div class="col-xl-3 col-md-6 center">
           <stats-card>
-            <div slot="header" class="icon-info">
-              <i class="nc-icon nc-favourite-28 text-primary"></i>
+            <div slot="header" class="icon-warning">
+              <i class="nc-icon nc-atom text-warning"></i>
             </div>
             <div slot="content">
-              <p class="card-category">Followers</p>
+              <p class="card-category">Test Cases</p>
+              <h4 class="card-title">363</h4>
+            </div>
+            <div slot="footer">
+              <i class="fa fa-refresh"></i>Last day
+            </div>
+          </stats-card>
+        </div>
+
+        <div class="col-xl-3 col-md-6 center">
+          <stats-card>
+            <div slot="header" class="icon-success">
+              <i class="nc-icon nc-light-3 text-success"></i>
+            </div>
+            <div slot="content">
+              <p class="card-category">Epic AC Coverage</p>
+              <h4 class="card-title">45%</h4>
+            </div>
+            <div slot="footer">
+              <i class="fa fa-calendar-o"></i>Last day
+            </div>
+          </stats-card>
+        </div>
+
+        <div class="col-xl-3 col-md-6 center">
+          <stats-card>
+            <div slot="header" class="icon-danger">
+              <i class="nc-icon nc-vector text-danger"></i>
+            </div>
+            <div slot="content">
+              <p class="card-category">Issues</p>
               <h4 class="card-title">+45</h4>
             </div>
             <div slot="footer">
@@ -61,15 +95,17 @@
             </div>
           </stats-card>
         </div>
-
       </div>
+
+
+
       <div class="row">
         <div class="col-md-8">
           <chart-card :chart-data="lineChart.data"
                       :chart-options="lineChart.options"
                       :responsive-options="lineChart.responsiveOptions">
             <template slot="header">
-              <h4 class="card-title">Users Behavior</h4>
+              <h4 class="card-title">Alert Behavior</h4>
               <p class="card-category">24 Hours performance</p>
             </template>
             <template slot="footer">
@@ -89,7 +125,7 @@
         <div class="col-md-4">
           <chart-card :chart-data="pieChart.data" chart-type="Pie">
             <template slot="header">
-              <h4 class="card-title">Email Statistics</h4>
+              <h4 class="card-title">AC Statistics</h4>
               <p class="card-category">Last Campaign Performance</p>
             </template>
             <template slot="footer">
@@ -269,5 +305,8 @@
   }
 </script>
 <style>
+.center {
+  margin: auto;
+}
 
 </style>
