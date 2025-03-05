@@ -62,9 +62,6 @@
                   <td>
                     <a href="#" class="upgrade-table-btn btn btn-b btn-round btn-fill btn-default disabled">Current Version</a>
                   </td>
-                  <td>
-                    <a target="_blank" href="http://www.creative-tim.com/product/vue-light-bootstrap-dashboard-pro/?ref=vue-lbdupgrade" class="upgrade-table-btn btn btn-round btn-fill btn-info">Upgrade to PRO</a>
-                  </td>
                 </tr>
                 </tbody>
               </table>

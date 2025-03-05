@@ -39,7 +39,7 @@ const routes = [
         component: TableList
       },
       {
-        path: 'typography',
+        path: 'temporal',
         name: 'Typography',
         component: Typography
       },
@@ -57,11 +57,6 @@ const routes = [
         path: 'notifications',
         name: 'Notifications',
         component: Notifications
-      },
-      {
-        path: 'upgrade',
-        name: 'Upgrade to PRO',
-        component: Upgrade
       }
     ]
   },

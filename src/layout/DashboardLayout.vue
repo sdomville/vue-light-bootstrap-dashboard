@@ -7,37 +7,30 @@
         <p>Dashboard</p>
       </sidebar-link>
       <sidebar-link to="/admin/user">
-        <i class="nc-icon nc-circle-09"></i>
-        <p>User Profile</p>
+        <i class="nc-icon nc-alien-33"></i>
+        <p>Alerts</p>
       </sidebar-link>
       <sidebar-link to="/admin/table-list">
         <i class="nc-icon nc-notes"></i>
-        <p>Table list</p>
+        <p>Events</p>
       </sidebar-link>
-      <sidebar-link to="/admin/typography">
+      <sidebar-link to="/admin/temporal">
         <i class="nc-icon nc-paper-2"></i>
-        <p>Typography</p>
+        <p>Temploral Metrics</p>
       </sidebar-link>
       <sidebar-link to="/admin/icons">
         <i class="nc-icon nc-atom"></i>
-        <p>Icons</p>
+        <p>Tests</p>
       </sidebar-link>
       <sidebar-link to="/admin/maps">
         <i class="nc-icon nc-pin-3"></i>
-        <p>Maps</p>
+        <p>Epic ACs</p>
       </sidebar-link>
       <sidebar-link to="/admin/notifications">
         <i class="nc-icon nc-bell-55"></i>
         <p>Notifications</p>
       </sidebar-link>
 
-      <template slot="bottom-links">
-        <sidebar-link class="active"
-                      to="/admin/upgrade">
-          <i class="nc-icon nc-alien-33"></i>
-          <p>Upgrade to PRO</p>
-        </sidebar-link>
-      </template>
     </side-bar>
     <div class="main-panel">
       <top-navbar></top-navbar>

@@ -1,4 +1,6 @@
 <template>
+
+
   <li class="dropdown nav-item"
       :is="tag"
       :class="{show: isOpen}"
@@ -7,14 +9,18 @@
       @click="toggleDropDown"
       v-click-outside="closeDropDown">
 
-    <a class="nav-link dropdown-toggle"
-       data-toggle="dropdown">
+    <!-- <a class="nav-link dropdown-toggle"
+       data-toggle="dropdown"> -->
+       <div>
       <slot name="title">
-        <i :class="icon"></i>
+        <!-- <i :class="icon"></i>
         <span class="no-icon">{{title}}</span>
-        <b class="caret"></b>
+        <b class="caret"></b> -->
       </slot>
-    </a>
+      </div>
+    <!-- </a> -->
+
+
     <div class="dropdown-menu show" v-show="isOpen">
       <slot></slot>
     </div>

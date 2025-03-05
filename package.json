@@ -3,7 +3,7 @@
   "version": "2.1.0",
   "private": true,
   "description": "Vue light bootstrap dashboard",
-  "author": "cristijora <joracristi@gmail.com>",
+  "author": "buddy",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "cross-env CI=false vue-cli-service build",
@@ -14,14 +14,10 @@
   },
   "dependencies": {
     "bootstrap": "4.6.0",
-    "cache-loader": "^4.1.0",
     "chartist": "0.11.0",
-    "google-maps": "3.2.1",
     "register-service-worker": "1.7.2",
-    "v-tooltip": "2.0.0-rc.33",
     "vue": "2.7.14",
-    "vue-router": "3.0.2",
-    "vue2-google-maps": "0.10.7"
+    "vue-router": "3.0.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "3.12.1",
