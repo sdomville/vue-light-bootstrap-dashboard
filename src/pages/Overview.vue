@@ -111,13 +111,18 @@
                   <base-input type="text"
                             label="Event API"
                             placeholder="Select Event"
+                            v-model="selectedValue"
                             >
                   </base-input>
+                  <p>Selected Value: {{ selectedValue }}</p>
 
                   <!-- <span class="notification">???</span> -->
                 </template>
-                <a class="dropdown-item" href="#">Notification 1</a>
-                <a class="dropdown-item" href="#">Notification 2</a>
+
+                <!-- HOW TO MAKE THESE ATTACH TO selectedValue and populate the input field?? -->
+
+                <span class="dropdown-item"  href="#">Notification 1</span>
+                <a class="dropdown-item" value="option1" href="#">Notification 2</a>
                 <a class="dropdown-item" href="#">Notification 3</a>
                 <a class="dropdown-item" href="#">Notification 4</a>
                 <a class="dropdown-item" href="#">Another notification</a>
@@ -164,6 +169,8 @@
     },
     data () {
       return {
+        selectedValue: '',
+
         editTooltip: 'Edit Task',
         deleteTooltip: 'Remove',
         pieChart: {
