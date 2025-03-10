@@ -4,6 +4,7 @@ import BaseInput from './Inputs/BaseInput.vue'
 
 import BaseDropdown from './BaseDropdown.vue'
 import Table from './Table.vue'
+import Modal from './Modal.vue'
 
 import Card from './Cards/Card.vue'
 import ChartCard from './Cards/ChartCard.vue'

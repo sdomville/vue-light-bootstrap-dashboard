@@ -6,7 +6,7 @@ https://demos.creative-tim.com/vue-light-bootstrap-dashboard/?&_ga=2.59529773.14
 
 
 
-# [Vue Light Bootstrap Dashboard](http://vuejs.creative-tim.com/vue-light-bootstrap-dashboard) [![version][version-badge]][changelog] [![license][license-badge]][license]
+# [Buddy](http://vuejs.creative-tim.com/vue-light-bootstrap-dashboard) [![version][version-badge]][changelog] [![license][license-badge]][license]
 
 > Admin dashboard based on light bootstrap dashboard UI template + vue-router
 
@@ -19,7 +19,7 @@ Check the [Live Demo here](http://vuejs.creative-tim.com/vue-light-bootstrap-das
 
 ## :rocket: Getting started
 
-Vue Light Bootstrap Dashboard is built on top of Bootstrap 4, Vuejs and Vue-router. To get started do the following steps:
+Buddy is built on top of Bootstrap 4, Vuejs and Vue-router. To get started do the following steps:
 
 1. Download the project
 2. Make sure you have node.js (https://nodejs.org/en/) installed

@@ -12,6 +12,11 @@
       <slot :row="item">
         <td v-for="column in columns" :key="column" v-if="hasValue(item, column)">{{itemValue(item, column)}}</td>
       </slot>
+
+      <i class="fa fa-paper-plane"></i>
+
+      <i class="fa fa-trash"></i>
+
     </tr>
     </tbody>
   </table>
